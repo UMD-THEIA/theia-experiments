@@ -27,8 +27,8 @@ void get_events(const Metavision::EventCD *begin, const Metavision::EventCD *end
 int main(void) {
 
     // IMPLEMENT A WAY TO NOT WRITE OVER EXISTING FILE
-    string rec_path = "/home/theia-media/blackwater1_rec1_slew7_OpenEB-3.0.1.raw";
-    string output_path = "/home/theia-media/recfile_open_test__recent.raw";
+    string rec_path = "/home/theia-onboard-media/input/recordings/blackwater1_rec1_slew7_OpenEB-3.0.1.raw";
+    string output_path = "/home/theia-onboard-media/output/recordings/recfile_open_test__recent.raw";
 
     int start_delay = 1;
 

@@ -28,7 +28,7 @@ int main(void) {
 
     // IMPLEMENT A WAY TO NOT WRITE OVER EXISTING FILE
     string bias_path = "/home/theia-onboard-media/input/biases/recording_2024-02-03_22-17-27.bias";
-    string output_path = "/home/theia-onboard-media/output/recfile_open_test__recent.raw";
+    string output_path = "/home/theia-onboard-media/output/recordings/recording_test__recent.raw";
 
     int start_delay = 1;
     int recording_length = 1;
@@ -63,6 +63,7 @@ int main(void) {
 
         if (elapsed_time >= recording_length) {
             theia_cam.stop_recording();
+            theia_cam.stop();
             break;
         }
 
@@ -74,8 +75,4 @@ int main(void) {
         cout << "Stopped recording. File saved to " << output_path << endl;
     }
       
-   
-    
-    // shut down the camera
-    theia_cam.stop();
 }
