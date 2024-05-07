@@ -1,9 +1,9 @@
-project (recfile_open_test)
+project (recording_test)
 cmake_minimum_required (VERSION 3.5)
 set (CMAKE_CXX_STANDARD 14)
 
 
-set (MAIN recfile_open_test)
+set (MAIN recording_test)
 add_executable (${MAIN} ${MAIN}.cpp)
 
 

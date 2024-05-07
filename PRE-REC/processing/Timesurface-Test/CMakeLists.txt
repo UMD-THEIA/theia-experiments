@@ -1,9 +1,9 @@
-project (asynchronous_timesurface_test)
+project (timesurface_test)
 cmake_minimum_required (VERSION 3.5)
-set (CMAKE_CXX_STANDARD 17)
+set (CMAKE_CXX_STANDARD 14)
 
 
-set (MAIN asynchronous_timesurface_test)
+set (MAIN timesurface_test)
 add_executable (${MAIN} ${MAIN}.cpp)
 
 

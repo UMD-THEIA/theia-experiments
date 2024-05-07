@@ -1,3 +1,0 @@
-/home/theia/driver/ASYNC-File-Open-Test/build/CMakeFiles/rebuild_cache.dir
-/home/theia/driver/ASYNC-File-Open-Test/build/CMakeFiles/edit_cache.dir
-/home/theia/driver/ASYNC-File-Open-Test/build/CMakeFiles/recfile_open_test.dir
