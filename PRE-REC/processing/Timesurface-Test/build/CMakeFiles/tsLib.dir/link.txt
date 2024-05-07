@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtsLib.a CMakeFiles/tsLib.dir/src/TimesurfaceLib.cpp.o
+/usr/bin/ranlib libtsLib.a
