@@ -27,7 +27,7 @@ void get_events(const Metavision::EventCD *begin, const Metavision::EventCD *end
 int main(void) {
 
     // IMPLEMENT A WAY TO NOT WRITE OVER EXISTING FILE
-    string bias_path = "/home/theia-onboard-media/input/biases/recording_2024-02-03_22-17-27.bias";
+    string bias_path = "/home/theia-onboard-media/input/biases/low_datarate_test.bias";
     string output_path = "/home/theia-onboard-media/output/recordings/recording_test__recent.raw";
 
     int start_delay = 1;
