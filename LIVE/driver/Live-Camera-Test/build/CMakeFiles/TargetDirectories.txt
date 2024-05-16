@@ -1,0 +1,3 @@
+/home/theia-experiments/LIVE/driver/Live-Camera-Test/build/CMakeFiles/rebuild_cache.dir
+/home/theia-experiments/LIVE/driver/Live-Camera-Test/build/CMakeFiles/edit_cache.dir
+/home/theia-experiments/LIVE/driver/Live-Camera-Test/build/CMakeFiles/live_cam_test.dir

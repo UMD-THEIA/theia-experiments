@@ -1,0 +1,3 @@
+/home/theia-experiments/LIVE/driver/Recording-Test/build/CMakeFiles/rebuild_cache.dir
+/home/theia-experiments/LIVE/driver/Recording-Test/build/CMakeFiles/edit_cache.dir
+/home/theia-experiments/LIVE/driver/Recording-Test/build/CMakeFiles/recording_test.dir
