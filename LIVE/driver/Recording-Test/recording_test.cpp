@@ -6,6 +6,8 @@
 #include <thread>
 #include <chrono>
 #include <ctime>
+#include <sys/resource.h>
+#include <sys/sysinfo.h>
 
 using namespace std;
 
@@ -22,6 +24,15 @@ void get_events(const Metavision::EventCD *begin, const Metavision::EventCD *end
     }
     cout << "There were " << counter << " events in this callback." << endl;
 
+}
+
+void print_system_info() {
+    struct sysinfo sys_info;
+    if (sysinfo(&sys_info) == 0) {
+        cout << "Available threads: " << thread::hardware_concurrency() << endl;
+        cout << "Used threads: " << 2 << endl; // since we use 2 threads in this example
+        cout << "Memory allocated: " << sys_info.totalram - sys_info.freeram << " bytes" << endl;
+    }
 }
 
 int main(void) {
@@ -74,5 +85,7 @@ int main(void) {
     if (theia_cam.is_running() != true) {
         cout << "Stopped recording. File saved to " << output_path << endl;
     }
+
+    print_system_info();
       
 }

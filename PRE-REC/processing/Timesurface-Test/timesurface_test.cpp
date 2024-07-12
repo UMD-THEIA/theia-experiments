@@ -55,12 +55,10 @@ public:
 
 int main(void) {
 
-    cout << "Entering script\n" << endl;
-
     // get full script start time and initialize statistics object
     auto globalstart = chrono::high_resolution_clock::now();
 
-    cout << "Attempting to open Metavision::Camera. . .\n" << endl;
+    cout << "\nAttempting to open Metavision::Camera. . ." << " ";
 
     // open the Metavision::Camera object
     Metavision::Camera theia_cam;
@@ -72,13 +70,13 @@ int main(void) {
     Metavision::timestamp duration = -1;
     try {
         auto &osc = theia_cam.offline_streaming_control();
-        while (!osc.is_ready()) {
-            std::this_thread::sleep_for(std::chrono::milliseconds(50));
-        }
+        // while (!osc.is_ready()) {
+            // std::this_thread::sleep_for(std::chrono::milliseconds(50));
+        // }
         duration = osc.get_duration();
-    } catch (const Metavision::CameraException &) {}
+    } catch (const Metavision::CameraException &) {};
 
-    cout << "Success. Initializing callbacks. . .\n" << endl;
+    cout << "Success.\nInitializing callbacks. . ." << " ";
 
     // initialize callback to save events to raw file
     theia_cam.cd().add_callback(save_events);
@@ -90,14 +88,14 @@ int main(void) {
         StarProc.process_events(ev_begin, ev_end);
     });
 
+    cout << "Success.\nHolding for planned delay. . ." << " ";
 
 
-    cout << "Success. Waiting to begin. . ." << endl;
 
     // sleep thread until intended start time
     this_thread::sleep_for(chrono::seconds(start_delay));
 
-    cout << "Beginning processing.\n" << endl;
+    cout << "Done. Beginning processing.\n" << endl;
     
     // camera driver script
         // (for explanations, see Pipeline-Development/cpp/driver/recording file open test/)
@@ -114,7 +112,7 @@ int main(void) {
         ;
     }
     if (theia_cam.is_running() != true) {
-        cout << "Recording closed. Copy saved to " << output_path << endl;
+        cout << "Recording closed. Copy saved to " << output_path << "\n\n" << endl;
     }
     theia_cam.stop();
 
@@ -124,6 +122,10 @@ int main(void) {
 
     // calculate and print statistics
     StarProc.ScrptStat.calculateScrptStat(globalstart, processingstart, globalend, duration);
+
+    // print thread statistics
+    unsigned int n = thread::hardware_concurrency();
+    cout << n << " concurrent threads are supported.\n" << endl;
 
     return 0;
 

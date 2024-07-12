@@ -6,13 +6,26 @@
 #include <thread>
 #include <chrono>
 #include <ctime>
+#include <sys/resource.h>
+#include <sys/sysinfo.h>
+#include <iomanip> // for std::put_money
+#include <unistd.h>
+#include <sstream>
+#include <fstream>
 
 using namespace std;
+
+std::string format_number(size_t number) {
+    std::ostringstream ss;
+    ss.imbue(std::locale(""));
+    ss << std::fixed << number;
+    return ss.str();
+}
 
 void get_events(const Metavision::EventCD *begin, const Metavision::EventCD *end) {
     int counter = 0;
 
-// this loop allows us to get access to each event received in this callback
+    // this loop allows us to get access to each event received in this callback
     for (const Metavision::EventCD *ev = begin; ev != end; ++ev) {
         ++counter; // count each event
 
@@ -21,11 +34,31 @@ void get_events(const Metavision::EventCD *begin, const Metavision::EventCD *end
         //           << ", polarity: " << ev->p << std::endl;
     }
     cout << "There were " << counter << " events in this callback." << endl;
+}
 
+void print_system_info() {
+    struct sysinfo sys_info;
+    if (sysinfo(&sys_info) == 0) {
+        cout << "Available threads: " << thread::hardware_concurrency() << endl;
+        cout << "Used threads: " << 2 << endl; // since we use 2 threads in this example
+        cout << "Memory allocated: " << format_number(sys_info.totalram - sys_info.freeram) << " bytes" << endl;
+    }
+}
+
+void print_memory_usage() {
+    pid_t pid = getpid();
+    stringstream ss;
+    ss << "/proc/" << pid << "/status";
+    ifstream status_file(ss.str());
+    string line;
+    while (getline(status_file, line)) {
+        if (line.find("VmRSS:") != string::npos) {
+            cout << line << endl;
+        }
+    }
 }
 
 int main(void) {
-
     // IMPLEMENT A WAY TO NOT WRITE OVER EXISTING FILE
     string output_path = "/home/theia-onboard-media/output/recordings/biasless_rec_test__recent.raw";
 
@@ -33,27 +66,28 @@ int main(void) {
     int recording_length = 1;
 
     Metavision::Camera theia_cam;
-    // Attempting to open the camera when you plug in the usb
+    // Attempting to open the camera when you plug in the USB
     try {
         theia_cam = Metavision::Camera::from_first_available();
-
+        cout << "Camera opened successfully." << endl;
     } catch (Metavision::CameraException &e) { // catching the exception if we can't find cam
         cout << e.what() << endl;
+        return 1;
     }
 
     // to analyze the events, we add a callback that will be called periodically to give access to the latest events
     theia_cam.cd().add_callback(get_events);
-    
+
     this_thread::sleep_for(chrono::seconds(start_delay));
 
     // start the camera recording to a specified filepath and streams data
     theia_cam.start();
-    
-    cout << "Recording opened." << endl;
-
+    cout << "Recording started." << endl;
     theia_cam.start_recording(output_path);
 
     auto start_t = chrono::system_clock::now();
+
+    print_memory_usage(); // Print memory usage at the start
 
     while (theia_cam.is_running()) {
         auto current_t = chrono::system_clock::now();
@@ -68,9 +102,12 @@ int main(void) {
         this_thread::sleep_for(chrono::milliseconds(100));
     }
 
-
-    if (theia_cam.is_running() != true) {
+    if (!theia_cam.is_running()) {
         cout << "Stopped recording. File saved to " << output_path << endl;
     }
-      
+
+    print_memory_usage(); // Print memory usage at the end
+    print_system_info();
+
+    return 0;
 }
