@@ -15,14 +15,14 @@
 ########################
 
 //The directory containing a CMake configuration file for Boost.
-Boost_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0
+Boost_DIR:PATH=/usr/lib/cmake/Boost-1.77.0
 
-Boost_FILESYSTEM_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
+Boost_FILESYSTEM_LIBRARY_RELEASE:STRING=/usr/lib/libboost_filesystem.so.1.77.0
 
 //Path to a file.
 Boost_INCLUDE_DIR:PATH=/usr/include
 
-Boost_TIMER_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_timer.so.1.74.0
+Boost_TIMER_LIBRARY_RELEASE:STRING=/usr/lib/libboost_timer.so.1.77.0
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -32,21 +32,21 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:STRING=/usr/bin/g++
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-11
+CMAKE_CXX_COMPILER_AR:FILEPATH=CMAKE_CXX_COMPILER_AR-NOTFOUND
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-11
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=CMAKE_CXX_COMPILER_RANLIB-NOTFOUND
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -64,15 +64,15 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:STRING=/usr/bin/gcc
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-11
+CMAKE_C_COMPILER_AR:FILEPATH=CMAKE_C_COMPILER_AR-NOTFOUND
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-11
+CMAKE_C_COMPILER_RANLIB:FILEPATH=CMAKE_C_COMPILER_RANLIB-NOTFOUND
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -226,7 +226,7 @@ MetavisionHAL_DIR:PATH=/usr/share/cmake/MetavisionHAL
 MetavisionSDK_DIR:PATH=/usr/share/cmake/MetavisionSDK
 
 //The directory containing a CMake configuration file for OpenCV.
-OpenCV_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/opencv4
+OpenCV_DIR:PATH=/usr/lib/cmake/opencv4
 
 //Value Computed by CMake
 TimesurfaceLib_BINARY_DIR:STATIC=/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/src
@@ -240,17 +240,20 @@ TimesurfaceLib_LIB_DEPENDS:STATIC=general;MetavisionSDK::core;general;Metavision
 //Value Computed by CMake
 TimesurfaceLib_SOURCE_DIR:STATIC=/home/theia-experiments/PRE-REC/processing/Timesurface-Test/src
 
+//The directory containing a CMake configuration file for boost_atomic.
+boost_atomic_DIR:PATH=/usr/lib/cmake/boost_atomic-1.77.0
+
 //The directory containing a CMake configuration file for boost_chrono.
-boost_chrono_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.74.0
+boost_chrono_DIR:PATH=/usr/lib/cmake/boost_chrono-1.77.0
 
 //The directory containing a CMake configuration file for boost_filesystem.
-boost_filesystem_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.74.0
+boost_filesystem_DIR:PATH=/usr/lib/cmake/boost_filesystem-1.77.0
 
 //The directory containing a CMake configuration file for boost_headers.
-boost_headers_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0
+boost_headers_DIR:PATH=/usr/lib/cmake/boost_headers-1.77.0
 
 //The directory containing a CMake configuration file for boost_timer.
-boost_timer_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_timer-1.74.0
+boost_timer_DIR:PATH=/usr/lib/cmake/boost_timer-1.77.0
 
 //Value Computed by CMake
 timesurface_test_BINARY_DIR:STATIC=/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build
@@ -277,7 +280,7 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/theia-experiments/PRE-REC/processing/Timesurf
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=22
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=21
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
@@ -322,8 +325,6 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
-//Path to cache edit program executable.
-CMAKE_EDIT_COMMAND:INTERNAL=/usr/bin/ccmake
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -356,7 +357,7 @@ CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/theia-experiments/PRE-REC/processing/Timesurface-Test
 //Install .so files without execute permission.
-CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
+CMAKE_INSTALL_SO_NO_EXE:INTERNAL=0
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM
@@ -386,7 +387,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.22
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.21
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -414,11 +415,13 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STRIP
 CMAKE_STRIP-ADVANCED:INTERNAL=1
 //uname command
-CMAKE_UNAME:INTERNAL=/usr/bin/uname
+CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: boost_atomic_DIR
+boost_atomic_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_chrono_DIR
 boost_chrono_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_filesystem_DIR

@@ -70,9 +70,9 @@ int main(void) {
     Metavision::timestamp duration = -1;
     try {
         auto &osc = theia_cam.offline_streaming_control();
-        // while (!osc.is_ready()) {
-            // std::this_thread::sleep_for(std::chrono::milliseconds(50));
-        // }
+    //     while (!osc.is_ready()) {
+    //         std::this_thread::sleep_for(std::chrono::milliseconds(50));
+    //     }
         duration = osc.get_duration();
     } catch (const Metavision::CameraException &) {};
 
@@ -125,7 +125,7 @@ int main(void) {
 
     // print thread statistics
     unsigned int n = thread::hardware_concurrency();
-    cout << n << " concurrent threads are supported.\n" << endl;
+    cout << n << " concurrent threads supported.\n" << endl;
 
     return 0;
 

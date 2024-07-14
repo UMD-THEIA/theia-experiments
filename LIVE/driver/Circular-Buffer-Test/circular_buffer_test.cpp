@@ -172,7 +172,7 @@ void print_system_info() {
 }
 
 int main(void) {
-    string output_path = "/home/theia-onboard-media/output/recordings/biasless_rec_test__recent.raw";
+    string output_path = "/home/theia-onboard-media/output/recordings/circular_buffer_test__recent.raw";
 
     int start_delay = 1;
     int recording_length = 1;
