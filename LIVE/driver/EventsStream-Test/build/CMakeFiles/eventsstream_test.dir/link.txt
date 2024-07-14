@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/eventsstream_test.dir/eventsstream_test.cpp.o -o eventsstream_test  /usr/lib/libmetavision_hal_discovery.so.3.0.1 /usr/lib/libmetavision_hal.so.3.0.1 /usr/lib/libmetavision_sdk_base.so.3.0.1 

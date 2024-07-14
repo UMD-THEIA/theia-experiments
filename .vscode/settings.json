@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "/home/theia-experiments/PRE-REC/driver/File-Open-Test"
+    "cmake.sourceDirectory": "/home/theia-experiments/PRE-REC/driver/File-Open-Test",
+    "files.associations": {
+        "chrono": "cpp",
+        "ostream": "cpp"
+    }
 }

@@ -103,7 +103,7 @@ private:
     std::condition_variable cv; // Condition variable for synchronization
 };
 
-CircularBuffer event_buffer(250000); // Adjust the size to handle up to 1M events per second
+CircularBuffer event_buffer(10000000); // Adjust the size to handle up to 1M events per second
 std::atomic<bool> recording_stopped(false); // Flag to indicate recording status
 
 void get_events(const Metavision::EventCD* begin, const Metavision::EventCD* end) {
@@ -167,7 +167,6 @@ void print_system_info() {
     if (sysinfo(&sys_info) == 0) {
         cout << "Available threads: " << thread::hardware_concurrency() << endl;
         cout << "Used threads: " << 2 << endl; // since we use 2 threads in this example
-        cout << "Memory allocated: " << CircularBuffer::format_number(sys_info.totalram - sys_info.freeram) << " bytes" << endl;
     }
 }
 

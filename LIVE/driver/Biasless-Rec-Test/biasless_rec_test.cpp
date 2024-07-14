@@ -41,7 +41,6 @@ void print_system_info() {
     if (sysinfo(&sys_info) == 0) {
         cout << "Available threads: " << thread::hardware_concurrency() << endl;
         cout << "Used threads: " << 2 << endl; // since we use 2 threads in this example
-        cout << "Memory allocated: " << format_number(sys_info.totalram - sys_info.freeram) << " bytes" << endl;
     }
 }
 
