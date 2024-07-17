@@ -65,7 +65,7 @@ int main(void) {
     string output_path = "/home/theia-onboard-media/output/recordings/eventsstream_test__recent.raw";
 
     int start_delay = 1;
-    int recording_length = 1;
+    int recording_length = 5;
 
     // Open the device
     std::cout << "Opening camera..." << std::endl;
@@ -108,9 +108,15 @@ int main(void) {
             
             i_eventsstream->log_raw_data(output_path);
 
+            i_eventsstream->start();
+            i_device_control->start();
+            std::cout << "Camera started." << std::endl;
+
             auto start_t = chrono::system_clock::now();
 
             while (chrono::duration_cast<chrono::seconds>(chrono::system_clock::now() - start_t).count() < recording_length) {
+                long n_bytes;
+                uint8_t *raw_data = i_eventsstream->get_latest_raw_data(n_bytes);
                 ;
             }
 
