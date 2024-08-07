@@ -28,10 +28,10 @@ The CXX compiler identification is GNU, found in "/home/theia-experiments/PRE-RE
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2295e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2295e.dir/build.make CMakeFiles/cmTC_2295e.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_592b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_592b6.dir/build.make CMakeFiles/cmTC_592b6.dir/build
 gmake[1]: Entering directory '/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: arm-xilinx-linux-gnueabi
@@ -39,8 +39,8 @@ Configured with: ../../../../../../work-shared/gcc-11.2.0-r0/gcc-11.2.0/configur
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_2295e.dir/'
- /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/cc1 -quiet -v /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2295e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfloat-abi=hard -mtls-dialect=gnu -marm -mlibarch=armv7-a+fp -march=armv7-a+fp -version -o /tmp/ccwNv8I7.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_592b6.dir/'
+ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/cc1 -quiet -v /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_592b6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfloat-abi=hard -mtls-dialect=gnu -marm -mlibarch=armv7-a+fp -march=armv7-a+fp -version -o /tmp/ccwnjfVk.s
 GNU C17 (GCC) version 11.2.0 (arm-xilinx-linux-gnueabi)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=96 --param ggc-min-heapsize=125355
@@ -57,15 +57,15 @@ GNU C17 (GCC) version 11.2.0 (arm-xilinx-linux-gnueabi)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=96 --param ggc-min-heapsize=125355
 Compiler executable checksum: cd3cb8dc72c45aad8b649329276ef08f
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_2295e.dir/'
- /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o /tmp/ccwNv8I7.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_592b6.dir/'
+ /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o /tmp/ccwnjfVk.s
 GNU assembler version 2.37 (arm-xilinx-linux-gnueabi) using BFD version (GNU Binutils) 2.37.20210721
 COMPILER_PATH=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/
 LIBRARY_PATH=/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../:/lib/:/usr/lib/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_2295e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2295e.dir/link.txt --verbose=1
-/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o -o cmTC_2295e 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_592b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_592b6.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o -o cmTC_592b6 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper
@@ -76,9 +76,9 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/
 LIBRARY_PATH=/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../:/lib/:/usr/lib/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2295e'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_2295e.'
- /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/collect2 -plugin /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5FH7qf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_2295e /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../.. -L/usr/lib/arm-xilinx-linux-gnueabi/11.2.0 CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtendS.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2295e'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_2295e.'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_592b6'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_592b6.'
+ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/collect2 -plugin /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccohpqbZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_592b6 /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../.. -L/usr/lib/arm-xilinx-linux-gnueabi/11.2.0 CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtendS.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_592b6'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_592b6.'
 gmake[1]: Leaving directory '/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp'
 
 
@@ -100,10 +100,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2295e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2295e.dir/build.make CMakeFiles/cmTC_2295e.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_592b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_592b6.dir/build.make CMakeFiles/cmTC_592b6.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: arm-xilinx-linux-gnueabi]
@@ -111,8 +111,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_2295e.dir/']
-  ignore line: [ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/cc1 -quiet -v /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2295e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfloat-abi=hard -mtls-dialect=gnu -marm -mlibarch=armv7-a+fp -march=armv7-a+fp -version -o /tmp/ccwNv8I7.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_592b6.dir/']
+  ignore line: [ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/cc1 -quiet -v /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_592b6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfloat-abi=hard -mtls-dialect=gnu -marm -mlibarch=armv7-a+fp -march=armv7-a+fp -version -o /tmp/ccwnjfVk.s]
   ignore line: [GNU C17 (GCC) version 11.2.0 (arm-xilinx-linux-gnueabi)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=96 --param ggc-min-heapsize=125355]
@@ -129,15 +129,15 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=96 --param ggc-min-heapsize=125355]
   ignore line: [Compiler executable checksum: cd3cb8dc72c45aad8b649329276ef08f]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_2295e.dir/']
-  ignore line: [ /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o /tmp/ccwNv8I7.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_592b6.dir/']
+  ignore line: [ /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o /tmp/ccwnjfVk.s]
   ignore line: [GNU assembler version 2.37 (arm-xilinx-linux-gnueabi) using BFD version (GNU Binutils) 2.37.20210721]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../:/lib/:/usr/lib/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_2295e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2295e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o -o cmTC_2295e ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_592b6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_592b6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o -o cmTC_592b6 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper]
@@ -148,13 +148,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../:/lib/:/usr/lib/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2295e'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_2295e.']
-  link line: [ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/collect2 -plugin /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5FH7qf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_2295e /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../.. -L/usr/lib/arm-xilinx-linux-gnueabi/11.2.0 CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtendS.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_592b6'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_592b6.']
+  link line: [ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/collect2 -plugin /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccohpqbZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_592b6 /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../.. -L/usr/lib/arm-xilinx-linux-gnueabi/11.2.0 CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtendS.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crtn.o]
     arg [/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc5FH7qf.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccohpqbZ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -171,7 +171,7 @@ Parsed C implicit link information from above output:
     arg [armelf_linux_eabi] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2295e] ==> ignore
+    arg [cmTC_592b6] ==> ignore
     arg [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o] ==> obj [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o]
     arg [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o] ==> obj [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o]
     arg [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o] ==> obj [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o]
@@ -179,7 +179,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0] ==> dir [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0]
     arg [-L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../..] ==> dir [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../..]
     arg [-L/usr/lib/arm-xilinx-linux-gnueabi/11.2.0] ==> dir [/usr/lib/arm-xilinx-linux-gnueabi/11.2.0]
-    arg [CMakeFiles/cmTC_2295e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_592b6.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -211,10 +211,10 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6c40/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6c40.dir/build.make CMakeFiles/cmTC_b6c40.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b38b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b38b2.dir/build.make CMakeFiles/cmTC_b38b2.dir/build
 gmake[1]: Entering directory '/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -o CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: arm-xilinx-linux-gnueabi
@@ -222,8 +222,8 @@ Configured with: ../../../../../../work-shared/gcc-11.2.0-r0/gcc-11.2.0/configur
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b6c40.dir/'
- /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b6c40.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mtls-dialect=gnu -marm -mlibarch=armv7-a+fp -march=armv7-a+fp -version -o /tmp/cc6cMYka.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b38b2.dir/'
+ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b38b2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mtls-dialect=gnu -marm -mlibarch=armv7-a+fp -march=armv7-a+fp -version -o /tmp/cciHqCT4.s
 GNU C++17 (GCC) version 11.2.0 (arm-xilinx-linux-gnueabi)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=96 --param ggc-min-heapsize=125355
@@ -243,15 +243,15 @@ GNU C++17 (GCC) version 11.2.0 (arm-xilinx-linux-gnueabi)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=96 --param ggc-min-heapsize=125355
 Compiler executable checksum: 074a80039b54528482f93d5d1efea317
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b6c40.dir/'
- /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc6cMYka.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b38b2.dir/'
+ /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o /tmp/cciHqCT4.s
 GNU assembler version 2.37 (arm-xilinx-linux-gnueabi) using BFD version (GNU Binutils) 2.37.20210721
 COMPILER_PATH=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/
 LIBRARY_PATH=/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../:/lib/:/usr/lib/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_b6c40
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c40.dir/link.txt --verbose=1
-/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b6c40 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_b38b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b38b2.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b38b2 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper
@@ -262,9 +262,9 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/
 LIBRARY_PATH=/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../:/lib/:/usr/lib/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b6c40' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_b6c40.'
- /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/collect2 -plugin /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdDxeZd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_b6c40 /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../.. -L/usr/lib/arm-xilinx-linux-gnueabi/11.2.0 CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtendS.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b6c40' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_b6c40.'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b38b2' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_b38b2.'
+ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/collect2 -plugin /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3phcnN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_b38b2 /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../.. -L/usr/lib/arm-xilinx-linux-gnueabi/11.2.0 CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtendS.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b38b2' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_b38b2.'
 gmake[1]: Leaving directory '/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp'
 
 
@@ -292,10 +292,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6c40/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6c40.dir/build.make CMakeFiles/cmTC_b6c40.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b38b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b38b2.dir/build.make CMakeFiles/cmTC_b38b2.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: arm-xilinx-linux-gnueabi]
@@ -303,8 +303,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b6c40.dir/']
-  ignore line: [ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b6c40.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mtls-dialect=gnu -marm -mlibarch=armv7-a+fp -march=armv7-a+fp -version -o /tmp/cc6cMYka.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b38b2.dir/']
+  ignore line: [ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b38b2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mtls-dialect=gnu -marm -mlibarch=armv7-a+fp -march=armv7-a+fp -version -o /tmp/cciHqCT4.s]
   ignore line: [GNU C++17 (GCC) version 11.2.0 (arm-xilinx-linux-gnueabi)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=96 --param ggc-min-heapsize=125355]
@@ -324,15 +324,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=96 --param ggc-min-heapsize=125355]
   ignore line: [Compiler executable checksum: 074a80039b54528482f93d5d1efea317]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b6c40.dir/']
-  ignore line: [ /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc6cMYka.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b38b2.dir/']
+  ignore line: [ /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/as -v -march=armv7-a -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o /tmp/cciHqCT4.s]
   ignore line: [GNU assembler version 2.37 (arm-xilinx-linux-gnueabi) using BFD version (GNU Binutils) 2.37.20210721]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../:/lib/:/usr/lib/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_b6c40]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c40.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b6c40 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_b38b2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b38b2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b38b2 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper]
@@ -343,13 +343,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/libexec/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../../arm-xilinx-linux-gnueabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../:/lib/:/usr/lib/arm-xilinx-linux-gnueabi/11.2.0/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b6c40' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_b6c40.']
-  link line: [ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/collect2 -plugin /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdDxeZd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_b6c40 /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../.. -L/usr/lib/arm-xilinx-linux-gnueabi/11.2.0 CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtendS.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b38b2' '-shared-libgcc'  '-mfloat-abi=hard' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+fp' '-march=armv7-a+fp' '-dumpdir' 'cmTC_b38b2.']
+  link line: [ /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/collect2 -plugin /usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3phcnN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -pie -o cmTC_b38b2 /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0 -L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../.. -L/usr/lib/arm-xilinx-linux-gnueabi/11.2.0 CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtendS.o /usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crtn.o]
     arg [/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/arm-xilinx-linux-gnueabi/11.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccdDxeZd.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3phcnN.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -366,7 +366,7 @@ Parsed CXX implicit link information from above output:
     arg [armelf_linux_eabi] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b6c40] ==> ignore
+    arg [cmTC_b38b2] ==> ignore
     arg [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o] ==> obj [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../Scrt1.o]
     arg [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o] ==> obj [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../crti.o]
     arg [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o] ==> obj [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0/crtbeginS.o]
@@ -374,7 +374,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0] ==> dir [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../../arm-xilinx-linux-gnueabi/11.2.0]
     arg [-L/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../..] ==> dir [/usr/lib/gcc/arm-xilinx-linux-gnueabi/11.2.0/../../..]
     arg [-L/usr/lib/arm-xilinx-linux-gnueabi/11.2.0] ==> dir [/usr/lib/arm-xilinx-linux-gnueabi/11.2.0]
-    arg [CMakeFiles/cmTC_b6c40.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b38b2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -402,13 +402,13 @@ Parsed CXX implicit link information from above output:
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_654c6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_654c6.dir/build.make CMakeFiles/cmTC_654c6.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1029b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1029b.dir/build.make CMakeFiles/cmTC_1029b.dir/build
 gmake[1]: Entering directory '/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_654c6.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_654c6.dir/CheckIncludeFile.c.o -c /home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_654c6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_654c6.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_654c6.dir/CheckIncludeFile.c.o -o cmTC_654c6 
+Building C object CMakeFiles/cmTC_1029b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1029b.dir/CheckIncludeFile.c.o -c /home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1029b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1029b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1029b.dir/CheckIncludeFile.c.o -o cmTC_1029b 
 gmake[1]: Leaving directory '/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp'
 
 
@@ -416,13 +416,13 @@ gmake[1]: Leaving directory '/home/theia-experiments/PRE-REC/processing/Timesurf
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
 Change Dir: /home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f63c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f63c7.dir/build.make CMakeFiles/cmTC_f63c7.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b289/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b289.dir/build.make CMakeFiles/cmTC_8b289.dir/build
 gmake[1]: Entering directory '/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f63c7.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_f63c7.dir/src.c.o -c /home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_f63c7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f63c7.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_f63c7.dir/src.c.o -o cmTC_f63c7 
+Building C object CMakeFiles/cmTC_8b289.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8b289.dir/src.c.o -c /home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8b289
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b289.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8b289.dir/src.c.o -o cmTC_8b289 
 gmake[1]: Leaving directory '/home/theia-experiments/PRE-REC/processing/Timesurface-Test/build/CMakeFiles/CMakeTmp'
 
 
