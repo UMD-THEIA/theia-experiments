@@ -11,8 +11,9 @@
 #include <metavision/hal/facilities/i_events_stream.h>
 #include <metavision/sdk/base/events/event_cd.h>
 
-#include <opencv4/opencv2/core.hpp>
+#include <boost/program_options.hpp>
 #include <iostream>
+#include <string>
 #include <thread>
 #include <chrono>
 #include <ctime>
@@ -24,6 +25,7 @@
 #include <fstream>
 
 using namespace std;
+namespace po = boost::program_options;
 
 std::string format_number(size_t number) {
     std::ostringstream ss;
@@ -53,7 +55,7 @@ void print_memory_usage() {
     }
 }
 
-int main(void) {
+int main(int argc, char* argv[]) {
 
     string plugin_name;
     long system_id = -1;
@@ -61,11 +63,47 @@ int main(void) {
     // camera serial
     string serial = "";
 
-    // IMPLEMENT A WAY TO NOT WRITE OVER EXISTING FILE
-    string output_path = "/home/theia-onboard-media/output/recordings/eventsstream_test__recent.raw";
-
+    string output_path;
     int start_delay = 1;
-    int recording_length = 5;
+    int recording_duration = 1;
+
+    // Define options
+    po::options_description desc("Usage");
+    desc.add_options()
+        ("help,h", "Show help message")
+        ("output,o", po::value<string>(&output_path)->required(), "Set output filename in /home/theia-onboard-media/output/recordings (required)")
+        ("delay,s", po::value<int>(&start_delay)->default_value(1), "Set start delay in seconds (default: 1)")
+        ("duration,d", po::value<int>(&recording_duration)->default_value(1), "Set recording length in seconds (default: 1)");
+
+    // Parse options
+    po::variables_map vm;
+    try {
+        po::store(po::parse_command_line(argc, argv, desc), vm);
+
+        if (vm.count("help")) {
+            cout << desc << "\n";
+            return 0;
+        }
+
+        po::notify(vm); // Check for required options
+    } catch (const po::error& e) {
+        cerr << "Error: " << e.what() << "\n";
+        cerr << desc << "\n";
+        return 1;
+    }
+
+    // Output parsed values
+    cout << "Recording name: " << output_path << "\n";
+    output_path = "/home/theia-media/output/recordings/" + output_path;
+    cout << "Output path: " << output_path << "\n";
+    cout << "Delay: " << start_delay << "s\n";
+    cout << "Recording duration: " << recording_duration << "s\n";
+
+    // // IMPLEMENT A WAY TO NOT WRITE OVER EXISTING FILE
+    // string output_path = "/home/theia-onboard-media/output/recordings/eventsstream_test__recent.raw";
+
+    // int start_delay = 1;
+    // int recording_duration = 5;
 
     // Open the device
     std::cout << "Opening camera..." << std::endl;
@@ -98,7 +136,7 @@ int main(void) {
         return 1;
     }
 
-    print_memory_usage(); // Print memory usage at the start
+    // print_memory_usage(); // Print memory usage at the start
 
     this_thread::sleep_for(chrono::seconds(start_delay));
 
@@ -114,7 +152,7 @@ int main(void) {
 
             auto start_t = chrono::system_clock::now();
 
-            while (chrono::duration_cast<chrono::seconds>(chrono::system_clock::now() - start_t).count() < recording_length) {
+            while (chrono::duration_cast<chrono::seconds>(chrono::system_clock::now() - start_t).count() < recording_duration) {
                 long n_bytes;
                 uint8_t *raw_data = i_eventsstream->get_latest_raw_data(n_bytes);
                 ;
@@ -129,7 +167,7 @@ int main(void) {
 
     cout << "Stopped recording. File saved to " << output_path << endl;
 
-    print_memory_usage(); // Print memory usage at the end
+    // print_memory_usage(); // Print memory usage at the end
     print_system_info();
 
     return 0;
