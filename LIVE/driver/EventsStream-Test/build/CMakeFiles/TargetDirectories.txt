@@ -1,3 +1,0 @@
-/home/theia-experiments/LIVE/driver/EventsStream-Test/build/CMakeFiles/rebuild_cache.dir
-/home/theia-experiments/LIVE/driver/EventsStream-Test/build/CMakeFiles/edit_cache.dir
-/home/theia-experiments/LIVE/driver/EventsStream-Test/build/CMakeFiles/eventsstream_test.dir
